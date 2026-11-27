@@ -1,0 +1,9 @@
+Codigo,Riesgo,Dimension,Probabilidad,Impacto_USD,EMV_USD,P_escala,I_escala,Severidad,Estrategia,RiskOwner,Trigger
+"R01","Autorización vencida o duplicada","Requisitos",0.35,140,49.00,4,4,16,"Mitigar","Fabián","Dos habilitaciones con igual ID; orden expirada aceptada"
+"R02","Lecturas de corriente incorrectas","Ejecución",0.3,100,30.00,3,4,12,"Mitigar","Fabián","Más de 2 falsas detecciones en 10 pruebas"
+"R03","Falla del broker o Wi-Fi","Entorno",0.45,90,40.50,4,3,12,"Mitigar","Marjorie","Más de 5 min sin conexión en prueba"
+"R04","Desacuerdo sobre pago y reserva","Cliente",0.3,70,21.00,3,3,9,"Mitigar","Marjorie","Dos requisitos contradictorios sin resolver"
+"R05","Ampliación a pagos bancarios reales","Requisitos",0.25,180,45.00,3,5,15,"Evitar","Marjorie","Solicitud de integrar cobro real en fase I"
+"R06","Problemas eléctricos en prototipo","Ejecución",0.2,160,32.00,2,5,10,"Evitar","Fabián","Intento de conexión a 110 V sin supervisión"
+"R07","Registro o acceso indebido a datos","Entorno",0.25,130,32.50,3,4,12,"Marjorie","Cristina","Acceso a historial con usuario no autorizado"
+"R08","Escasa validación con arrendadores","Cliente",0.4,70,28.00,4,2,8,"Marjorie","Cristina","Ningún arrendador revisa prototipo en fecha acordada"
